@@ -201,18 +201,19 @@ TABLES = [
         ["uuid", "iiifurl", "iiifthumburl", "viewtype", "sequence", "width",
          "height", "maxpixels", "openaccess", "created", "modified",
          "depictstmsobjectid", "assistivetext"],
-        """SELECT uuid,
-                  CAST('https://api.nga.gov/iiif/' + uuid AS VARCHAR(512)) AS iiifURL,
-                  CAST('https://api.nga.gov/iiif/' + uuid + '/full/!200,200/0/default.jpg' AS VARCHAR(512)) AS iiifThumbURL,
-                  viewType, sequence, width, height, maxPixels,
-                  CASE WHEN obj_rightsType = 'Open Access' THEN 1 ELSE 0 END AS openAccess,
-                  created, modified, depictsTMSObjectID, assistiveText
-           FROM x_published_images
-           WHERE depictsTMSObjectID IS NOT NULL
-             AND ri_photoCredit IS NULL
-             AND viewType IN ('primary','alternate')
-             AND COALESCE(ri_isDetail,'false') = 'false'
-           ORDER BY uuid"""
+        """SELECT i.uuid,
+                  CAST('https://api.nga.gov/iiif/' + i.uuid AS VARCHAR(512)) AS iiifURL,
+                  CAST('https://api.nga.gov/iiif/' + i.uuid + '/full/!200,200/0/default.jpg' AS VARCHAR(512)) AS iiifThumbURL,
+                  i.viewType, i.sequence, i.width, i.height, i.maxPixels,
+                  CASE WHEN i.obj_rightsType = 'Open Access' THEN 1 ELSE 0 END AS openAccess,
+                  i.created, i.modified, i.depictsTMSObjectID, i.assistiveText
+           FROM x_published_images i
+           JOIN x_objects o ON o.objectID = i.depictsTMSObjectID
+           WHERE o.accessioned = 1
+             AND i.ri_photoCredit IS NULL
+             AND i.viewType IN ('primary','alternate')
+             AND COALESCE(i.ri_isDetail,'false') = 'false'
+           ORDER BY i.uuid"""
     ),
 ]
 
