@@ -5673,7 +5673,7 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 5980,5987,Caillebotte,"Caillebotte, Gustave",Gustave Caillebotte,Preferred Name
 5981,5988,Graves,"Graves, Nancy",Nancy Graves,Preferred Name
 5982,5989,Nicholson,"Nicholson, Ben",Ben Nicholson,Preferred Name
-5983,5990,Princeteau,"Princeteau, Rene Pierre Charles",Rene Pierre Charles Princeteau,Preferred Name
+5983,5990,Princeteau,"Princeteau, René Pierre Charles",René Pierre Charles Princeteau,Preferred Name
 5984,5991,Wilmarth,"Wilmarth, Christopher",Christopher Wilmarth,Preferred Name
 5985,5992,Bray,"Bray, Jan de",Jan de Bray,Preferred Name
 5986,5993,Brouwer,"Brouwer, Adriaen",Adriaen Brouwer,Preferred Name
@@ -34866,6 +34866,7 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 63797,54251,Mars,"Mars, Jacquie",Jacquie Mars,Preferred Name
 63799,54253,Horne,"Horne, Jonathan",Jonathan Horne,Preferred Name
 63800,54253,Horne,"Horne, Rachael",Rachael Horne,Spouse
+63801,54254,Langer,"Langer, Klára",Klára Langer,Preferred Name
 63802,54255,Valdez,"Valdez, Patssi",Patssi Valdez,Preferred Name
 63816,54269,Hale,"Hale, Ken",Ken Hale,Preferred Name
 63817,54270,,KJH Press,KJH Press,Preferred Name
