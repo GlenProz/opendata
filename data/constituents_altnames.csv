@@ -35060,6 +35060,8 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 64187,54559,,Servarts Beaux-Arts,Servarts Beaux-Arts,Preferred Name
 64188,54560,Morisot-Pontillon,"Morisot-Pontillon, Edma",Edma Morisot-Pontillon,Preferred Name
 64200,54572,MacBaisey,"MacBaisey, Steve",Steve MacBaisey,Preferred Name
+64201,54573,Quarles,"Quarles, Christina",Christina Quarles,Preferred Name
+64202,54574,,Pilar Corrias,Pilar Corrias,Preferred Name
 64210,54580,Bonazza,"Bonazza, Giovanni",Giovanni Bonazza,Preferred Name
 64212,54582,Sosnoff,"Sosnoff, Toni and Martin",Toni and Martin Sosnoff,Preferred Name
 64216,54586,Jarvis,"Jarvis, Shaniqwa",Shaniqwa Jarvis,Preferred Name
@@ -35151,3 +35153,6 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 64468,54801,Tyszkiewiczowa,"Tyszkiewiczowa, Maria Teresa",Maria Teresa Tyszkiewiczowa,Preferred Name
 64469,54801,Poniatowska,"Poniatowska, Maria Teresa",Maria Teresa Poniatowska,Maiden Name
 64471,6242,Hogenberg,"Hogenberg, Franz",Franz Hogenberg,Variant
+64473,54804,Perlman,"Perlman, Ezra and Lauren",Ezra and Lauren Perlman,Preferred Name
+64479,34348,,Sprueth Magers,Sprueth Magers,Variant
+64482,774,,Hirschl & Adler,Hirschl & Adler,Variant
