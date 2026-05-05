@@ -15438,7 +15438,6 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 27632,27639,Senff,"Senff, Charles H.",Charles H. Senff,Preferred Name
 27633,27640,Hoerle,"Hoerle, Heinrich",Heinrich Hoerle,Preferred Name
 27641,27648,Couturier,"Couturier, Stéphane",Stéphane Couturier,Preferred Name
-27647,27654,Pritzker,"Pritzker, John, Mr. and Mrs.",John and Lisa Pritzker,Preferred Name
 27655,27662,Lagarde,Lagarde,Lagarde,Preferred Name
 27656,27663,Moatti,"Moatti, Alain",Alain Moatti,Preferred Name
 27657,27664,,"Stoppenbach and Delestre, Ltd.","Stoppenbach and Delestre, Ltd.",Preferred Name
@@ -22368,7 +22367,6 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 38790,33027,Burke,"Burke, Russell",Russell Burke,Preferred Name
 38791,21358,Altman Fine Art & Advisory Services,"Altman Fine Art & Advisory Services, Michael",Michael Altman Fine Art & Advisory Services,Variant
 38793,15257,MacGill,"MacGill, Susan Mrs.",Susan MacGill,Spouse
-38794,27654,Pritzker,"Pritzker, Lisa Mrs.",Lisa Pritzker,Spouse
 38795,33029,Private Collection (Arcimboldo),Private Collection (Arcimboldo),Private Collection (Arcimboldo),Preferred Name
 38797,33031,Boetti,"Boetti, Alighiero",Alighiero Boetti,Preferred Name
 38805,31262,Koppel,"Koppel, Sherry and Alan",Sherry and Alan Koppel,Variant Index Name
@@ -35078,6 +35076,7 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 64255,54623,,Peter Norton Family,"Peter Norton Family, Santa Monica, California",Preferred Name
 64260,54628,Rogers,"Rogers, Joshua",Joshua Rogers,Preferred Name
 64261,54629,,"La Paloma, Los Angeles","La Paloma, Los Angeles",Preferred Name
+64262,54630,,"People for the American Way, Washington, D.C.","People for the American Way, Washington, D.C.",Preferred Name
 64263,43658,,Lorilland Company,Lorilland Company,Variant
 64264,54631,Gallatin,"Gallatin, Emily Lorillard (Morris)",Emily Lorillard (Morris) Gallatin,Preferred Name
 64266,54633,Rodríguez-Díaz,"Rodríguez-Díaz, Angel",Angel Rodríguez-Díaz,Preferred Name
@@ -35120,7 +35119,6 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 64362,54718,Keating,"Keating, Alice",Funds from Alice and Peter Keating,Preferred Name
 64363,54719,Bullock,"Bullock, Raymond",Raymond Bullock,Preferred Name
 64373,27654,,Lisa Stone Pritzker Family Fund,Lisa Stone Pritzker Family Fund,Variant Index Name
-64374,27654,,LSP Family Foundation,LSP Family Foundation,Variant Index Name
 64375,28102,,Vintage Galeria,Vintage Galeria,Variant
 64377,8095,Casey,"Casey, Ella Josephine",Ella Josephine Casey,Variant
 64378,8246,Stottlemeyer,"Stottlemeyer, Margaret Rebecca ""Pattie""","Margaret Rebecca ""Pattie"" Stottlemeyer",Variant
@@ -35152,7 +35150,11 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 64467,38588,,Stanislaus II Augustus,Stanislaus II Augustus,Variant
 64468,54801,Tyszkiewiczowa,"Tyszkiewiczowa, Maria Teresa",Maria Teresa Tyszkiewiczowa,Preferred Name
 64469,54801,Poniatowska,"Poniatowska, Maria Teresa",Maria Teresa Poniatowska,Maiden Name
+64470,54802,Poniatowski,"Poniatowski, Józef Prince",Prince Józef Poniatowski,Preferred Name
 64471,6242,Hogenberg,"Hogenberg, Franz",Franz Hogenberg,Variant
 64473,54804,Perlman,"Perlman, Ezra and Lauren",Ezra and Lauren Perlman,Preferred Name
 64479,34348,,Sprueth Magers,Sprueth Magers,Variant
 64482,774,,Hirschl & Adler,Hirschl & Adler,Variant
+64484,27654,Pritzker,"Pritzker, John",John Pritzker,Preferred Name
+64485,54810,Pritzker,"Pritzker, Lisa",Lisa Pritzker,Preferred Name
+64487,54810,,LSP Family Foundation,LSP Family Foundation,Variant
