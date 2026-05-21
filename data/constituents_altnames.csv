@@ -13248,7 +13248,7 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 23545,23552,Patiño,"Patiño, Antenor, Mrs.",Mrs. Antenor Patiño,Preferred Name
 23552,23559,Heim,"Heim, Jean-François",Jean-François Heim,Preferred Name
 23558,23565,Birnbaum,"Birnbaum, Martin",Martin Birnbaum,Preferred Name
-23559,23566,Nagel,"Nagel, Fritz, Dr.",Dr. Fritz Nagel,Preferred Name
+23559,23566,,Nagel Auktionen,Nagel Auktionen,Preferred Name
 23564,23571,Nicoletti,"Nicoletti, Mauro",Mauro Nicoletti,Preferred Name
 23565,23572,Galeria Carlo Virgilio,Galeria Carlo Virgilio,Galeria Carlo Virgilio,Preferred Name
 23567,23574,Leroux,"Leroux, Philip",Philip Leroux,Preferred Name
@@ -34090,7 +34090,7 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 62569,53296,Arocho,"Arocho, Edwin",Edwin Arocho,Preferred Name
 62570,53279,Kirillov,"Kirillov, Alex",Alex Kirillov,Variant
 62571,33253,Buff,"Buff, Conrad II",Conrad Buff II,Variant
-62572,23566,,,,Variant
+62572,23566,,Auktionshaus Nagel Stuttgart,Auktionshaus Nagel Stuttgart,Original Name
 62573,53297,Sangiorgi,"Sangiorgi, Michele",Michele Sangiorgi,Preferred Name
 62574,53298,Leigh,"Leigh, Simone",Simone Leigh,Preferred Name
 62577,53301,,"Audap-Solanet, Godeau-Veillet","Audap-Solanet, Godeau-Veillet",Preferred Name
@@ -35158,3 +35158,4 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 64484,27654,Pritzker,"Pritzker, John",John Pritzker,Preferred Name
 64485,54810,Pritzker,"Pritzker, Lisa",Lisa Pritzker,Preferred Name
 64487,54810,,LSP Family Foundation,LSP Family Foundation,Variant
+64502,23566,Nagel,"Nagel, Fritz Dr.",Dr. Fritz Nagel,Variant
