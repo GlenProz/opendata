@@ -140,7 +140,7 @@ class TestWriteCsvRow:
 
 class TestTablesDefinition:
     def test_table_count(self):
-        assert len(ext.TABLES) > 0
+        assert len(ext.TABLES) == 15
 
     def test_each_entry_is_triple(self):
         for entry in ext.TABLES:
