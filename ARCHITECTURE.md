@@ -13,11 +13,11 @@ TMSPublicExtract (SQL Server)
         v
 extract_opendata.py
     - Connects via ODBC
-    - Queries 17 x_ tables directly
+    - Queries 15 x_ tables directly
     - Formats output to match legacy CSV conventions
         |
         v
-    data/*.csv (17 CSV files)
+    data/*.csv (15 CSV files)
         |
         v (optional --git-push)
     git add, commit, push → GitHub
@@ -47,7 +47,7 @@ TMS → PostgreSQL (vm-webdb-tdp) → psql COPY → CSV → GitHub
 ### What the Script Does
 
 1. Connects to SQL Server via pyodbc (ODBC Driver 18)
-2. Iterates over 17 table definitions (name, headers, SQL query)
+2. Iterates over 15 table definitions (name, headers, SQL query)
 3. For each table: executes the query, formats values, writes CSV
 4. Optionally stages, commits, and pushes to git
 
@@ -68,14 +68,14 @@ extract_opendata.py --server HOST --database DB [--git-push] [--output-dir DIR]
 
 ## Tables Extracted
 
-17 tables covering objects, constituents, locations, images, and relationships. See `documentation/Data Dictionary.txt` for column-level documentation.
+15 tables covering objects, constituents, locations, images, and relationships. See `documentation/Data Dictionary.txt` for column-level documentation.
 
 ## Testing
 
 Tests are in `tests/` and require `pytest` (`pip install pytest`).
 
 - **Unit tests** (`test_csv_formatting.py`): CSV formatting, value conversion, header validation. No database needed.
-- **Integration tests** (`test_database.py`): Runs all 17 queries against the database, validates column counts, row counts, data constraints (e.g., openaccess values are only 0 or 1). Requires database access. Tests auto-skip gracefully if no database is available.
+- **Integration tests** (`test_database.py`): Runs all queries against the database, validates column counts, row counts, data constraints (e.g., openaccess values are only 0 or 1). Requires database access. Tests auto-skip gracefully if no database is available.
 
 Run all tests:
 ```

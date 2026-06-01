@@ -2,7 +2,7 @@ National Gallery of Art Open Data Program: Collection Data in CSV Format
 
 Introduction
 
-Thank you for your interest in data about the National Gallery of Art’s collection.  The comma separated value files contained on this GitHub site represent a cross-section of public, fact-based data about our collection.  They contain an export of data about the NGA’s accessioned art objects, relationships between those art objects, the creators of those objects, donors who helped the NGA acquire the objects, the object’s provenance, and the public locations where the collection can be viewed, as well as links to access audio and video about the collection and people and images depicting the works. The NGA is releasing these files under the Creative Commons Zero (CC0) designation.  You are free to use the data in any manner consistent with the CC0 designation. Please note that while links to media files and images contained in this data are being released under a CC0 designation, the content of the linked sites might still be copyrighted. The NGA’s Open Access Policy, for example, applies to only a subset of the images that are linked in this dataset.
+Thank you for your interest in data about the National Gallery of Art’s collection.  The comma separated value files contained on this GitHub site represent a cross-section of public, fact-based data about our collection.  They contain an export of data about the NGA’s accessioned art objects, relationships between those art objects, the creators of those objects, donors who helped the NGA acquire the objects, the object’s provenance, and the public locations where the collection can be viewed, as well as people and images depicting the works. The NGA is releasing these files under the Creative Commons Zero (CC0) designation.  You are free to use the data in any manner consistent with the CC0 designation. Please note that while links to images contained in this data are being released under a CC0 designation, the content of the linked sites might still be copyrighted. The NGA’s Open Access Policy, for example, applies to only a subset of the images that are linked in this dataset.
 
 The full dataset is updated frequently (usually once a day), and the date of a particular CSV file can be confirmed by examining the last commit date reported by GitHub. 
 
@@ -168,36 +168,6 @@ CREATE TABLE locations	The location represents the physical public location of a
     description                 character varying(256) NOT NULL,	full text description of the location, e.g.  East Bldg, Mezz Gal 214B (Pod 2)
     unitPosition                character varying(64) NULL,	location within the room, e.g. SOUTH LEDGE
 )	
-	
-CREATE TABLE media_items	a table containing audio and video items published to www.nga.gov
-
-(	
-    mediaID                 bigint NOT NULL PRIMARY KEY,	numerical identifier for externally managed media - BrightCove and SoundCloud are our media providers and they both use large integers for media identifiers
-    mediaType               varchar(32) NOT NULL,	audio or video
-    title                   varchar(2048) NULL,	title of the media item
-    description             text NULL,	HTML fragment description of the media item
-    duration                int NULL,	duration of the media item in seconds (there could be manually entered errors in some of these values)
-    language                varchar(12) NOT NULL,	two letter language without localization, e.g. en, fr, zh
-    thumbnailURL            varchar(1024) NULL,	full URL to the thumbnail
-    playURL                 varchar(1024) NULL,	a URL that can be used to play the media file directly
-    downloadURL             varchar(1024) NULL,	a URL that allegedly can be used to download the media file directly (no option for brightcove so many nulls)
-    keywords                varchar(2048) NULL,	a list of non-vocabulary-controlled keywords assigned to the media item internally
-    tags                    varchar(2048) NULL,	a list of AEM tags assigned to the media item by authors
-    imageURL                varchar(1024) NULL,	similar to thumbnail, but for a full-size image
-    presentationDate        timestamp with time zone NULL,	the presentation date of an event represented by this media
-    releaseDate             timestamp with time zone NULL,	publication date
-    lastModified            timestamp with time zone NULL,	last modification date of the media item
-)	
-	
-CREATE TABLE media_relationships	records relationships between media items and core NGA art entities
-
-(	
-    mediaID                 bigint NOT NULL,	foreign key to media items table
-    relatedID               bigint NOT NULL,	foreign key into the relevant table for the relatedEntity
-    relatedEntity           varchar(32) NOT NULL,	the related entity, currently either nga:art:tms:constituents or nga:art:tms:objects
-    PRIMARY KEY(mediaID, relatedID, relatedEntity)	the composite primary key for this table
-)	
-	
 	
 CREATE TABLE object_associations	relationships between art objects - see accompanying documentation about types of art objects and relationships between them
 
