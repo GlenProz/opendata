@@ -12,7 +12,7 @@ The dataset is published in CSV format and uses UTF-8 encoding.  A [data diction
 
 ### Images and media files are not included in the dataset.
 
-While links and references to images and other media (such as audio and video files) are contained in this dataset, such images and media files are not included in this dataset or the open data program described above.  
+While links and references to images are contained in this dataset, the image files themselves are not included in this dataset or the open data program described above.
 
 ### Our collection data is in constant flux.
 

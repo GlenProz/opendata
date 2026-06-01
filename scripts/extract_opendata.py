@@ -78,22 +78,6 @@ TABLES = [
         "SELECT locationID, site, room, publicAccess, description, unitPosition FROM x_locations ORDER BY locationID"
     ),
     (
-        "media_items",
-        ["mediaid", "mediatype", "title", "description", "duration", "language",
-         "thumbnailurl", "playurl", "downloadurl", "keywords", "tags", "imageurl",
-         "presentationdate", "releasedate", "lastmodified"],
-        """SELECT mediaID, mediaType, title, description, duration, language,
-                  thumbnailURL, playURL, downloadURL, keywords, tags, imageURL,
-                  presentationDate, releaseDate, lastModified
-           FROM x_media_items
-           ORDER BY mediaID"""
-    ),
-    (
-        "media_relationships",
-        ["mediaid", "relatedid", "relatedentity"],
-        "SELECT mediaID, relatedID, relatedEntity FROM x_media_relationships ORDER BY mediaID, relatedID"
-    ),
-    (
         "object_associations",
         ["parentobjectid", "childobjectid", "relationship"],
         f"""SELECT DISTINCT a.parentObjectID, a.childObjectID, a.relationship

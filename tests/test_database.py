@@ -31,7 +31,7 @@ class TestConnection:
         cur.close()
 
 
-# --- All 17 queries execute without error ---
+# --- All queries execute without error ---
 
 @pytest.mark.parametrize("name,headers,query", ext.TABLES, ids=[t[0] for t in ext.TABLES])
 class TestQueryExecution:
