@@ -5818,14 +5818,10 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 6127,6134,Beale,"Beale, Mary",Mary Beale,Preferred Name
 6128,6135,Sheppard,"Sheppard, William",William Sheppard,Preferred Name
 6129,6136,Carwarden,"Carwarden, J.",J. Carwarden,Preferred Name
-6130,6137,Eggers,"Eggers, Otto R.",Otto R. Eggers,Preferred Name
-6132,6139,Eggers and Higgins,"Eggers and Higgins, Architects","Eggers and Higgins, Architects",Preferred Name
 6133,6140,Cross,"Cross, Thomas",Thomas Cross,Preferred Name
 6134,6141,Stone,"Stone, Henry",Henry Stone,Preferred Name
 6135,6142,Delaram,"Delaram, Francis",Francis Delaram,Preferred Name
 6136,6143,Elstrack,"Elstrack, Renold",Renold Elstrack,Preferred Name
-6137,6144,Rahill,"Rahill, P.J.",P.J. Rahill,Preferred Name
-6138,6145,Jimenez,"Jimenez, A.",A. Jimenez,Preferred Name
 6139,6146,Girardon,"Girardon, François",François Girardon,Preferred Name
 6140,6147,Marsy II,"Marsy II, Gaspard",Gaspard Marsy II,Preferred Name
 6141,6148,Lindner,"Lindner, Richard",Richard Lindner,Preferred Name
@@ -32471,6 +32467,7 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 60022,51240,Harris,"Harris, Jack",Jack Harris,Variant
 60023,51296,,Fontainebleau Pottery,Fontainebleau Pottery,Preferred Name
 60024,51297,Parisian 17th Century,Parisian 17th Century,Parisian 17th Century,Preferred Name
+60036,51309,Faustine,"Faustino, Nona",Nona Faustine,Preferred Name
 60040,51313,Tanagra 4th Century B.C.,Tanagra 4th Century B.C.,Tanagra 4th Century B.C.,Preferred Name
 60041,51314,Tanagra 3rd Century B.C.,Tanagra 3rd Century B.C.,Tanagra 3rd Century B.C.,Preferred Name
 60042,51315,Tanagra 1st Century B.C.,Tanagra 1st Century B.C.,Tanagra 1st Century B.C.,Preferred Name
