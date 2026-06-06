@@ -35070,6 +35070,7 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 64233,8126,Thompson,,Archie Roy Thompson,Full Name
 64252,54620,,Resettlement Administration,Resettlement Administration,Preferred Name
 64253,54621,Smith,"Smith, Erminnie Adelle Platt",Erminnie Adelle Platt Smith,Preferred Name
+64254,54622,,"Typecraft Inc., Pasadena, California","Typecraft Inc., Pasadena, California",Preferred Name
 64255,54623,,Peter Norton Family,"Peter Norton Family, Santa Monica, California",Preferred Name
 64260,54628,Rogers,"Rogers, Joshua",Joshua Rogers,Preferred Name
 64261,54629,,"La Paloma, Los Angeles","La Paloma, Los Angeles",Preferred Name
@@ -35096,7 +35097,7 @@ altnameid,constituentid,lastname,displayname,forwarddisplayname,nametype
 64290,54651,,Greitzer and Locks Law Firm,Greitzer and Locks Law Firm,Preferred Name
 64291,54652,Cohen,"Cohen, Nina",Nina Cohen,Preferred Name
 64292,50175,,Bassman/Himmel Studio,Bassman/Himmel Studio,Variant
-64294,54654,,,Galeria Ramis Barquet,Preferred Name
+64294,54654,,Galeria Ramis Barquet,Galeria Ramis Barquet,Preferred Name
 64295,54655,Huth,"Huth, Johannes",Johannes Huth,Preferred Name
 64296,54656,,Marian Locks Gallery,Marian Locks Gallery,Preferred Name
 64297,54657,,Galeria Fortes Vilaça,Galeria Fortes Vilaça,Preferred Name
